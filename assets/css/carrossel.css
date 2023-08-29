@@ -1,0 +1,15 @@
+.swiper-slide img {
+	width: 100%;
+	height: 24vw;
+	border-radius: 10px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	display: none;
+}
+
+.swiper-pagination {
+	position: initial;
+	margin: 0.5em 0;
+}
