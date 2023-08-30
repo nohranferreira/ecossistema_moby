@@ -26,7 +26,26 @@
 	color: #666;
 	font-size: 14px;
 	padding: 0px 15px 0px 45px;
+} 
+
+.search-input {
+	position: absolute;
 }
+
+.fi-br-search {
+	position: absolute;
+	left: 15px; /* Distância do ícone ao lado esquerdo */
+	top: 50%;
+	color: #666;
+	transform: translateY(-50%);
+	pointer-events: none; /* Desativar eventos de clique no ícone */
+}
+
+
+#searchText {
+	padding-left: 30px; /* Ajuste esse valor conforme o tamanho do seu ícone */
+}
+
 
 .most-popular .item {
 	background-color: #122d54;
@@ -84,4 +103,14 @@
 .most-popular .main-button {
 	text-align: center;
 	margin-bottom: -53px;
+}
+
+.col-lg-3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.col-lg-3.hidden {
+  opacity: 0;
+  pointer-events: none;
 }
